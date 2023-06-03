@@ -1504,3 +1504,25 @@ input[type="text"] {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+.faq .question {
+  margin-bottom: 10px;
+}
+
+.faq .question h3 {
+  margin: 0;
+  padding: 10px;
+  background-color: #f0f0f0;
+  cursor: pointer;
+}
+
+.faq .answer {
+  display: none;
+  padding: 10px;
+  background-color: #ffffff;
+}
+
+.faq .answer p {
+  margin: 0;
+}
+

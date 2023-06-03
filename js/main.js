@@ -265,3 +265,9 @@
 
 
 }());
+
+$(document).ready(function() {
+  $('.faq .question h3').click(function() {
+    $(this).next('.answer').slideToggle();
+  });
+});
